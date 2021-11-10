@@ -121,12 +121,16 @@ button:hover{
     grid-area: 1 / 13 / 2 / 14;
 }
 
+.crosswords #z29{
+    grid-area: 2 / 9 / 3 / 10;
+}
+
 .crosswords #z2a{
     grid-area: 2 / 10 / 3 / 11;
 }
 
-.crosswords #label-z2a{
-    grid-area: 2 / 10 / 3 / 11;
+.crosswords #label-z29{
+    grid-area: 2 / 9 / 3 / 10;
 }
 
 .crosswords #z2d{
