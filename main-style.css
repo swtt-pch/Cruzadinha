@@ -60,7 +60,7 @@ button:hover{
 
 
 .progress-bar{
-    width: 500px;
+    width: 92.30769230769231%;
     height: 30px;
     border: 2px solid #000;
     border-radius: 4px;
@@ -71,18 +71,18 @@ button:hover{
     background: linear-gradient(90deg, #921EAF 0%, #FFD234 100%);
     width: 0;
     height: 30px;
-    transition: 0.5s;
+    transition: 2s;
     text-align: center;
     white-space: nowrap;
 }
 
 
 .crosswords {
-    width: 650px;
+    width: 92.30769230769231%;
     height: 455px;
     display: grid;
-    grid-template-columns: repeat(20, 32.5px);
-    grid-template-rows: repeat(14, 32.5px);
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(14, 7.14285714285714%);
     margin-bottom: 15px;
 }
 
@@ -518,6 +518,7 @@ button:hover{
 }
 
 .cruzada-content {
+    width: 100%;
     position: -webkit-sticky;
     position: sticky;
     margin-top: 35px;
@@ -525,7 +526,9 @@ button:hover{
     top: 35px;
     bottom: 25px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
